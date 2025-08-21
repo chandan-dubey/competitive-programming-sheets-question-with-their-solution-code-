@@ -1,8 +1,10 @@
-A = int(input("Enter A: "))
-B = int(input("Enter B: "))
+base = int(input("Enter base: "))
+exponent = int(input("Enter exponent: "))
+
 result = 1
 i = 1
-while i <= B:
-    result *= A
+while i <= exponent:
+    result = result * base
     i += 1
-print("A^B =", result)
+
+print(result)
